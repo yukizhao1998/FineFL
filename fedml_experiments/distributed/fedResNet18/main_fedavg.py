@@ -44,7 +44,7 @@ def add_args(parser):
     parser.add_argument('--batches', default=20, type=int) #500
     parser.add_argument('--batch_size', default=64, type=int)
     parser.add_argument("--data_augment", action='store_true')
-    parser.add_argument('--data_path', default='/FedML/fedml_api/model/ResNet18/cifar10/', type=str)
+    parser.add_argument('--data_path', default='/FineFL/fedml_api/model/ResNet18/cifar10/', type=str)
     args = parser.parse_args()
     return args
 

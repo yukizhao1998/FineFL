@@ -7,7 +7,7 @@ from .message_define import MyMessage
 from .utils import transform_tensor_to_list
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), "../../../")))
-sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), "../../../../FedML")))
+sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), "../../../../FineFL")))
 try:
     from fedml_core.distributed.communication.message import Message
     from fedml_core.distributed.server.server_manager import ServerManager
