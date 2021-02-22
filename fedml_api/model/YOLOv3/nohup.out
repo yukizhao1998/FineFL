@@ -1,0 +1,11 @@
+usage: train.py [-h] [--epochs EPOCHS] [--batch_size BATCH_SIZE]
+                [--gradient_accumulations GRADIENT_ACCUMULATIONS]
+                [--model_def MODEL_DEF] [--data_config DATA_CONFIG]
+                [--pretrained_weights PRETRAINED_WEIGHTS] [--n_cpu N_CPU]
+                [--img_size IMG_SIZE]
+                [--checkpoint_interval CHECKPOINT_INTERVAL]
+                [--evaluation_interval EVALUATION_INTERVAL]
+                [--compute_map COMPUTE_MAP]
+                [--multiscale_training MULTISCALE_TRAINING] [--verbose]
+                [--logdir LOGDIR]
+train.py: error: unrecognized arguments: log_verbose

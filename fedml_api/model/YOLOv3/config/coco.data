@@ -1,0 +1,6 @@
+classes= 80
+train=data/coco/data_split/0_train.txt
+valid=data/coco/data_split/0_val.txt
+names=/FedML/fedml_api/model/YOLOv3/coco/coco.names
+backup=backup/
+eval=coco
