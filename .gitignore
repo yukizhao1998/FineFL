@@ -33,17 +33,14 @@ cifar-10-batches-py
 *.zip
 *.json
 
-# android
-.gradle
-fedml_mobile/android/.idea
-fedml_mobile/android/app/build
-fedml_mobile/android/fedml-iot-sdk/build
-fedml_mobile/android/build
-
 mimiconda.sh
 
 fedml_api/model/ResNet18/cifar10/*
 fedml_api/model/YOLOv3/coco/*
+fedml_experiments/distributed/fedResNet18/wandb
+fedml_experiments/distributed/fedResNet18/logs
+fedml_experiments/distributed/fedYOLOv3/wandb
+fedml_experiments/distributed/fedYOLOv3/logs
 
 data/fednlp/*
 
