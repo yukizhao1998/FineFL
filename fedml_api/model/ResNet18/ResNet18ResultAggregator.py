@@ -9,11 +9,12 @@ class ResNet18ResultAggregator():
         logging.info("round {} aggregating result...".format(round_idx))
         tags = result_dict[0]["result"].keys()
         total_data_cnt = 0
-        total_result = result_dict[0]["result"]
+        total_result = {}
+        for tag in tags:
+            total_result[tag] = 0.0
         for idx in result_dict.keys():
             for tag in tags:
                 total_data_cnt += result_dict[idx]["sample_number"]
-        total_result = result_dict[0]["result"]
         for idx in result_dict.keys():
             for tag in tags:
                 total_result[tag] += result_dict[idx]["result"][tag] * result_dict[idx]["sample_number"]
